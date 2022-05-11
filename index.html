@@ -48,48 +48,19 @@
 
        <p>Study how this page is built, and use it as a foundation for your portal or other sites!</p>
     <!-- Image Slider-->
-     <div id="frame">
-        <input type="radio" name="frame" id="frame1" checked />
-        <input type="radio" name="frame" id="frame2" />
-        <input type="radio" name="frame" id="frame3" />
-        <input type="radio" name="frame" id="frame4" />
-        <div id="slides">
-            <div id="overflow">
-                <div class="inner">
-                    <div class="frame frame_1">
-                        <div class="frame-content">
-                            <h2>Slide 1</h2>
-                        </div>
-                    </div>
-                    <div class="frame frame_2">
-                        <div class="frame-content">
-                            <h2>Slide 2</h2>
-                        </div>
-                    </div>
-                    <div class="frame frame_3">
-                        <div class="frame-content">
-                            <h2>Slide 3</h2>
-                        </div>
-                    </div>
-                    <div class="frame frame_4">
-                        <div class="frame-content">
-                            <h2>Slide 4</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="slider-holder">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <div class="image-holder">
+            <img src="http://labs.qnimate.com/slider/1.jpg" class="slider-image" />
+            <img src="http://labs.qnimate.com/slider/2.jpg" class="slider-image" />
+            <img src="http://labs.qnimate.com/slider/3.jpg" class="slider-image" />
         </div>
-        <div id="controls">
-            <label for="frame1"></label>
-            <label for="frame2"></label>
-            <label for="frame3"></label>
-            <label for="frame4"></label>
-        </div>
-        <div id="bullets">
-            <label for="frame1"></label>
-            <label for="frame2"></label>
-            <label for="frame3"></label>
-            <label for="frame4"></label>
+        <div class="button-holder">
+            <a href="#slider-image-1" class="slider-change"></a>
+            <a href="#slider-image-2" class="slider-change"></a>
+            <a href="#slider-image-3" class="slider-change"></a>
         </div>
     </div>
 <!-- End slider-->
