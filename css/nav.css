@@ -3,6 +3,7 @@
 
 /* Slideshow container */
 .slideshow-container {
+  box-sizing:border-box
   max-width: 800px;
   max-height:600px;
   position: relative;
