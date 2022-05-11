@@ -1,5 +1,6 @@
 /* Global rules */
  .slider {
+    box-sizing: border-box;
         width: 300px;
         text-align: center;
         overflow: hidden;
